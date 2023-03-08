@@ -3,9 +3,9 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2023 codewithsadee
+ * google-font
  */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 
 
@@ -109,9 +109,31 @@
   #RESET
 \*-----------------------------------*/
 
+*,
+*::before,
+*::after {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 
+}
 
+li{
+  list-style: none;
+}
 
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+a,
+img,
+button,
+ionicon,
+span{
+  display:block;
+}
 
 /*-----------------------------------*\
   #REUSED STYLE
