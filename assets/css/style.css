@@ -249,12 +249,12 @@ body {
 	z-index: 4;
 } 
 
-/* .header.active {
+ .header.active {
 	position: fixed;
 	background: var(--bg-white);
 	box-shadow: var(--shadow-1);
 	animation: slideIn 500ms ease forwards;
-}  */
+}  
 
  @keyframes slideIn {
 	0% {
@@ -312,6 +312,27 @@ body {
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
+}
+
+.navbar-list{
+	margin-block-start:50px;
+}
+
+.navbar-link{
+	position:relative;
+	color:var(--text-gunmetal);
+	font-size: var(--fontSize-7);
+	font-weight:var(--weight-medium);
+	padding-block:8px;
+	transition:var(--transiton-1);
+}
+
+.navbar-link :: before{
+	content:'';
+	position:absolute;
+	width:3px;
+	height:10px;
+	
 }
 
 /*-----------------------------------*\
